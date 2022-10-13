@@ -1,0 +1,29 @@
+.Header {
+    height: 38px;
+    background-color: #081b27;
+    border-bottom: 1px solid #37274c;
+    padding: 10px 0;
+    margin-left: -10px;
+    width: 100%;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+}
+
+.BoderHeader {
+    width: var(--width-body);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: row;
+    float: left;
+    position: absolute;
+    height: 100%;
+}
+
+.Logo {
+    margin: 0;
+    width: 230px;
+    height: 53px;
+    padding-top: 5px;
+    margin-right: 95px;
+}

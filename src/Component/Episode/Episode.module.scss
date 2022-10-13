@@ -1,0 +1,71 @@
+.wrapper {
+    width: 1200px;
+    height: auto;
+}
+
+.episode {
+    overflow: hidden;
+    padding: 6px;
+    margin-left: 40px;
+    background: #363636;
+    border: 1px solid#454545;
+    width: 1144px;
+    height: auto;
+}
+
+.subtitle {
+    color: #fff;
+    margin: 0 0 15px;
+    font-family: noto sans, sans-serif, Helvetica, Arial;
+    line-height: 25px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 6px 0;
+    margin-left: 3px;
+    font-size: 18px;
+    text-transform: uppercase;
+    &:hover {
+        cursor: pointer;
+        color: rgb(84, 179, 85);
+        text-decoration: underline;
+    }
+}
+
+.listPractice {
+    width: 100%;
+    height: auto;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    list-style-type: none;
+    flex-flow: row wrap;
+    display: flex;
+    box-sizing: border-box;
+    float: left;
+    padding-left: 3px;
+}
+
+.practiveItem {
+    width: auto;
+    height: 34px;
+    display: inline-block;
+    margin: 0 8px 8px 0;
+    background: #384b79;
+    color: #fff;
+    font-size: 17px;
+    padding: 3px 12px;
+    padding-bottom: 0px;
+    display: block;
+    border-radius: 3px;
+    zoom: 1;
+    text-shadow: 0 1px #111;
+    line-height: 28px;
+    &:hover {
+        background: #9741ff;
+        border-bottom-color: #aaf3ab;
+        cursor: pointer;
+    }
+
+    &:active {
+        border-bottom-color: rgb(170, 243, 171);
+        background: rgb(84, 179, 85);
+    }
+}

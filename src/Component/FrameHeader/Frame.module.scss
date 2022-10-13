@@ -1,0 +1,19 @@
+.frame {
+    top: -10px;
+    width: var(--width);
+    height: 20px;
+    background: #0c2738;
+}
+
+.title {
+    margin: 0;
+    width: 1224px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    text-align: right;
+    padding: 6px;
+    color: #9baa91;
+    transform: translateY(-10%);
+}

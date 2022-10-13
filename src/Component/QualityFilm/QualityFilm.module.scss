@@ -1,0 +1,64 @@
+.wrapper {
+    overflow: hidden;
+    max-width: 400px;
+    margin-top: 5px;
+    min-height: 60px;
+    float: left;
+    padding: 5px 0 5px 70px;
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.boderStars {
+    background: rgba(255, 255, 255, 0.1);
+    float: left;
+    padding: 12px 0;
+    width: 60px;
+    text-align: center;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.countStars {
+    font-size: 30px;
+    font-weight: 700;
+    color: #ddd;
+    text-align: center;
+    line-height: 30px;
+}
+
+.starts {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 5px;
+    margin-top: -8px;
+    padding: 0;
+    width: 70%;
+    direction: rtl;
+    text-align: left;
+}
+
+.start {
+    &::before {
+        content: '\2605';
+        width: 60px;
+        height: 60px;
+        font-size: 20px;
+    }
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    transition: color 0.2s ease;
+    color: #ebebeb;
+}
+
+.evaluate {
+    font-size: 15px;
+    line-height: 26px;
+    color: #aaa;
+    padding-left: 5px;
+}

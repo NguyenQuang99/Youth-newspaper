@@ -1,0 +1,56 @@
+.wrapper {
+    overflow: hidden;
+    padding: 5px 0;
+    border-bottom: 1px solid#162e42;
+    position: relative;
+    box-sizing: border-box;
+    width: 340px;
+    height: 95px;
+    top: 20px;
+    text-decoration: none;
+    &:hover {
+        background: #152e3e;
+        color: yellow;
+        cursor: pointer;
+    }
+}
+
+.columContent {
+    width: 260px;
+    float: right;
+}
+
+.imgFilm {
+    width: 60px;
+    height: 60px;
+    float: left;
+    border: 1px solid#404040;
+    margin: 12px 10px 0 5px;
+    border-radius: 5px;
+    padding: 1px;
+    background-size: cover;
+    background-position: 100%;
+}
+
+.title {
+    width: 100;
+    color: #c2aa8d;
+    font-size: 14px;
+    line-height: 25px;
+    overflow: hidden;
+    height: 25px;
+    font-family: Nunito, sans-serif;
+    margin: 0;
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+.viewer,
+.description {
+    font-size: 12px;
+    color: #999;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 20px;
+    margin: 0;
+}
