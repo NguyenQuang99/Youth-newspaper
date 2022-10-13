@@ -1,0 +1,36 @@
+.subMenu {
+    list-style: none;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    -webkit-tap-highlight-color: transparent;
+    width: 148.5px;
+    height: 20px;
+    font-size: 14px;
+    color: rgb(170, 170, 170);
+    float: left;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: none;
+    line-height: 20px;
+    padding: 7px;
+    white-space: nowrap;
+    display: block;
+    &:hover {
+        background-color: #1c1c1c;
+        cursor: pointer;
+    }
+}
+
+.listSubMenu {
+    display: block;
+    width: 650px;
+    height: auto;
+    background-color: rgb(64, 64, 64);
+    z-index: 101;
+    border: 1px solid rgb(102, 102, 102);
+    box-shadow: rgb(3 3 3 / 26%) 0px 3px 8px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 125px;
+}

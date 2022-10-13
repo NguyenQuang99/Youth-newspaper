@@ -1,0 +1,33 @@
+.wrapper {
+    width: 100%;
+    display: block;
+    padding-top: 20px;
+}
+
+.title {
+    width: auto;
+    color: #fff601;
+    text-shadow: 1px 1px 1px #1a1a1a;
+    text-transform: uppercase;
+    font: 35px 'baloo 2', cursive;
+    margin: 0;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.overView {
+    padding-right: 13px;
+    color: #bbb;
+    float: right;
+    text-transform: none;
+    font-size: 14px;
+    margin-top: -40px;
+    margin-right: 40px;
+    line-height: 45px;
+    &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
