@@ -1,0 +1,40 @@
+.home {
+    height: 500px;
+    background-color: #081b27;
+    width: var(--width-body);
+    margin: 0;
+    margin-left: -10px;
+    height: auto;
+}
+
+.banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+
+.bannerImg {
+    height: 100%;
+    width: 600px;
+}
+
+.columBackGround {
+    width: var(--width);
+    display: flex;
+    position: absolute;
+    left: 3.3%;
+    top: 210px;
+    height: auto;
+}
+
+.backGroundLeft {
+    float: left;
+    width: 66%;
+    height: 100%;
+}
+
+.backGroundRight {
+    width: 356px;
+    height: 100%;
+}
